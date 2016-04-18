@@ -9,5 +9,5 @@ def turn_count(board)
 end
 
 def current_player(board)
-  turn_count(board).even? ? "X" : "O" # using ternary if
+  turn_count(board).odd? ? "O" : "X" # using ternary if
 end
